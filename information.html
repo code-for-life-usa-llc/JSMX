@@ -14,13 +14,14 @@
 
         }
 
-        * {
+        body {
             margin: 0;
             padding: 0;
         }
 
         body {
             text-align: center;
+            background-color: #000;
         }
 
         .wrapper {
@@ -87,8 +88,7 @@
             width: 100%;
             position: relative;
             top: 450px;
-            background: #000
-            000;
+            background: #000 000;
             height: 1500px;
         }
 
@@ -105,13 +105,71 @@
             font-family: poppins;
             line-height: 30px;
         }
+
+        .Webpage-Content {
+            padding-top: 100px;
+        }
+
+
+        .still-image {
+            background-image: url("https://static.wixstatic.com/media/5cfe14_30977ca5f4d04cc2a8977a980baf19a9~mv2.gif");
+            height: 400px;
+
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+            z-index: 10;
+        }
+            /* THIS IS WERE IT ENDS */
+
+
+
+
+
+
+        h2 {
+            color: wheat;
+        }
+
+        p {
+            color: white;
+            text-align: center;
+        }
+
+        .old-man {
+            float: left;
+            margin-left: 350px;
+            
+        }
+
+        .text{
+            float: right;
+            width: 600px;
+            margin-right: 200px;
+        }
+        .img-people{
+            border-style: ridge;
+            border-color: white;
+        }
+        #AI-priorities{
+            color: wheat;
+        }
+            .information-container{
+                margin-top: 200px;
+            }
+        
+        h1 {
+            color: white;
+            text-align: center;
+            margin-left: 300px;
+        }
+        #AI{
+            text-align: center;
+        }
+        
     </style>
 </head>
-<div>
-    <h1></h1>
-
-
-</div>
 
 <body>
     <header>
@@ -129,23 +187,34 @@
         </div>
     </header>
 
-    <h2>How did AI started</h2>
-    <h4>Research began in 1956 with the Dartmouth Summer Research Project on Artificial Intelligence, <br>organized
-        by Dartmouth College professor John McCarthy. The conference's <br>goals were to develop ideas about
-        thinking machines, such as how to help machines use language, <br> form concepts, solve problems, and
-        improve themselves. </h4>
+    <div class="still-image"></div>
 
-    <h1>Who invented AI?</h1>
-    <h4>In 1955, McCarthy coined the term "artificial intelligence" and organized a summer workshop at Dartmouth
-        College in 1956 to explore the idea of thinking machines. The workshop, which is widely considered the
-        founding moment of AI research, aimed to develop ways for machines to use language, solve problems, and
-        improve themselves. McCarthy is also credited with developing Lisp, a popular programming language used in
-        AI research. McCarthy is often called the "father of AI"</h4>
-    <img src="https://news.stanford.edu/__data/assets/image/0025/81178/Mccarthy_portrait_news.jpeg" alt="" width="200">
+    <div class="information-container">
+        <img class="old-man" src="https://news.stanford.edu/__data/assets/image/0025/81178/Mccarthy_portrait_news.jpeg"
+             alt="" width="350" height="450">
+        <div class="text">
+            <h2>How did AI started</h2>
+            <p>Research began in 1956 with the <br>Dartmouth Summer Research Project on Artificial Intelligence, <br>organized
+                by Dartmouth College professor John <br> McCarthy. The conference's <br>goals were to develop ideas about
+                thinking machines, such as how to help machines use language, <br> form concepts, solve problems, and
+                improve themselves. </p>
 
-    <img src="" alt="">
+            <h2>Who invented AI?</h2>
+            <p>In 1955,<br> McCarthy coined the term "artificial intelligence" and organized a summer workshop at Dartmouth
+                College in 1956 to explore the idea of thinking machines. <br> The workshop, which is widely considered the
+                founding moment of AI research,<br> aimed to develop ways for machines to use language,<br> solve problems,
+                and
+                improve themselves. <br> McCarthy is also credited with developing Lisp, a popular programming language used
+                in
+                AI research. McCarthy is often called the "father of AI"</p>
+
+        </div>
+    </div>
 
 
+        <h1 id="AI">He passed away. 2011</h1>
+
+    
 
 </body>
 
