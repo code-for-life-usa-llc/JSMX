@@ -1,5 +1,5 @@
 table {
-	border: rgb(108, 150, 169) 2px solid;
+	border: #6c96a9 2px solid;
 }
 
 .center {
@@ -34,9 +34,8 @@ body {
 	margin: 0 auto;
 }
 header {
-	opacity: 0.2;
 	height: 100px;
-	background-color: #000000;
+	background-color: black;
 	width: 100%;
 	z-index: 10;
 	position: fixed;
@@ -50,7 +49,7 @@ header {
 	text-decoration: none;
 	font-size: 30px;
 	font-family: poppins;
-	color: #fff;
+	color: #ffffff;
 	letter-spacing: 5px;
 }
 nav {
@@ -74,7 +73,7 @@ nav a {
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center center;
-	color: #000;
+	
 }
 .banner-area h2 {
 	padding-top: 8%;
