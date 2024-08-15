@@ -2,6 +2,11 @@ table {
 	border: #6c96a9 2px solid;
 }
 
+table, th, td {
+	
+	font-size: x-large;
+}
+
 .center {
     margin-left: auto;
     margin-right: auto;
@@ -16,7 +21,7 @@ table {
  
 .white {color: #ffffff;}
 
-p { font-size: large;
+p { font-size: x-large;
 
 }
 

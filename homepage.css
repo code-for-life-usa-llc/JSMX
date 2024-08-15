@@ -28,6 +28,7 @@ table {
 
     .wrapper {
         width: 1170px;
+        margin: 0 auto;
     }
 
     header {
@@ -75,7 +76,7 @@ table {
         -webkit-background-size: cover;
         background-size: cover;
         background-position: center center;
-        color: black;
+        
     }
 
     .banner-area h2 {
@@ -83,7 +84,7 @@ table {
         font-size: 70px;
         font-family: poppins;
         text-transform: uppercase;
-        color: #fff;
+        color: #ffffff;
     }
 
     .content-area {
@@ -116,8 +117,6 @@ table {
     .still-image {
         background-image: url("https://static.wixstatic.com/media/5cfe14_30977ca5f4d04cc2a8977a980baf19a9~mv2.gif");
         height: 400px;
-
-        /* Create the parallax scrolling effect */
         background-attachment: fixed;
         background-position: center;
         background-size: cover;

@@ -110,9 +110,10 @@
         }
 
         iframe{
-            box-shadow: 0px 0px 15px white;
-            border-radius: 10px;
-        }
+            box-shadow: 0px 0px 100px #6c96a9;
+            border-radius: 10px; 
+        } 
+
 
         .myUL{
             border: #6c96a9 4px solid;
