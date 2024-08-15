@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+}
+
+.images{
+    text-align: center;
+    padding-top: 150px;
+
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 150px;
+    padding-top: 200px;
+}
